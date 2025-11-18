@@ -1,7 +1,7 @@
 {
   "name": "calculadora",
   "private": true,
-  "homepage": "https://Agl-David.github.io/calculadora",
+  "homepage": "https://Agl-Davidy.github.io/calculadora",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "mathjs": "^15.1.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
