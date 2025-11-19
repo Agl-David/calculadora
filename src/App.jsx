@@ -20,9 +20,12 @@ function App() {
   //Boton para manejar el resultado
   const calcularResultado = () => {
     //condicional para inprevistos al ingresar valores
-    
-    setInput (evaluate(input))
-  }
+    if (input){
+      setInput (evaluate(input))
+    }else{
+      alert("Por favor ingrese valores para realizar los calculos");
+    }
+  };
 
 
   return (
